@@ -2,12 +2,12 @@
 
 import React, {Component} from "react";
 
-//import components
+//Components for PhotoContainer
 import Photo from "./Photo";
 import NotFound from "./NotFound";
 
 
-//Photo Container Class handling gallery
+//Class for PhotContainer
 
 export default class PhotoContainer extends Component {
     //LifeCycle component to perform the Search 
@@ -29,12 +29,12 @@ export default class PhotoContainer extends Component {
         let images;
 
 
-        // when there are results append theme to a PhotoContainer
+   
         if(mainImages.length > 0){
             images = mainImages.map( img => <Photo url={`https://farm${img.farm}.staticflickr.com/${img.server}/${img.id}_${img.secret}.jpg`} key={img.id} />)
         }
 
-        //if there are no results show Not found component
+ // When no results found
         if(!this.props.page && mainImages.length === 0){
         images = <NotFound />
         }

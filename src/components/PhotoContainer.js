@@ -32,12 +32,13 @@ export default class PhotoContainer extends Component {
    
         if(mainImages.length > 0){
             images = mainImages.map( img => <Photo url={`https://farm${img.farm}.staticflickr.com/${img.server}/${img.id}_${img.secret}.jpg`} key={img.id} />)
-        }
+        }else {
+          //if there are no results, show Not found component.
+        images = <NotFound />;
+          }
 
- // When no results found
-        if(!this.props.page && mainImages.length === 0){
-        images = <NotFound />
-        }
+ 
+        
 
 
         return(

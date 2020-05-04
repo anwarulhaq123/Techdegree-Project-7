@@ -64,7 +64,7 @@ export default class App extends Component {
                         <Route exact path="/" render={()=><Redirect to="/search/home"/>}/>
                         <Route path="/search/:query" render={({match}) => (
                         <PhotoContainer
-                            routeMatch={match}
+                           matchData={match}
                             data={this.state.images}
                             doSearch={this.performSearch}
                             page={this.state.loading}

@@ -61,7 +61,7 @@ export default class App extends Component {
                     <Nav navSearch={this.performSearch}/>
 
                     <Switch>
-                        <Route exact path="/" render={()=><Redirect to="/search/home"/>}/>
+                        <Route exact path="/" render={()=><Redirect to="/search/cats"/>}/>
                         <Route path="/search/:query" render={({match}) => (
                         <PhotoContainer
                            matchData={match}

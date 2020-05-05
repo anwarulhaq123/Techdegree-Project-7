@@ -137,4 +137,13 @@ input {
     margin: 10px;
     width: 100px;
   }
+  .in-centre {
+
+    text-align: center;
+    margin: 0 auto 40px;
+    font-size: large;
+    text-decoration: wavy;
+    text-transform: capitalize;
+  }
+   
 }

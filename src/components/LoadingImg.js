@@ -2,7 +2,7 @@ import React from "react";
 
 //Function LoadingImg
 const LoadingImg = () => (
-    <li>
+    <li className = 'in-centre'>
         <p> loading...</p>
     </li>
 );

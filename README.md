@@ -14,9 +14,11 @@ Using the powerful Create React App tool, i set up the initial project.
 
 Then ..
 
-I have JavaScript and JSX to build out the gallery components in a modular fashion.
-i have used React Router to set up routes for  default topic pages and a search page.
-i have used the Axios to fetch data from the Flickr API and use it to display images in my app.
+1)I have used  JavaScript and JSX to build out the gallery components in a modular fashion.
+
+2)i have used React Router to set up routes for  default topic pages and a search page.
+
+3)i have used the Axios to fetch data from the Flickr API and use it to display images in my app.
 
 Components
 

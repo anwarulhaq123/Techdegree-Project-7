@@ -24,7 +24,8 @@ Components
 
 The project has the 8  components. 
 
-1) Header.js
+
+1)Header.js
 
 2)Nav.js
 
@@ -40,7 +41,8 @@ The project has the 8  components.
 
 8)Error404.js
 
-Config.js File 
+Config.js File
+ 
 
 The file Config.js containts the key for flicker Api . you need to add  your own Api key for file Config.js. The file has the following code :
 

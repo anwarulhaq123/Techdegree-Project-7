@@ -145,5 +145,32 @@ input {
     text-decoration: wavy;
     text-transform: capitalize;
   }
+  
+  .message{
+    text-align: center ;
+    text-transform: capitalize;
+    margin-top: 10rem;
+    text-shadow: 0 0 1rem darkslategray;
+
+
+  }
+
+ .not-exist {
+  text-align: center;
+  font-size: 6em;
+  line-height: 1.3em;
+  margin: 2rem 0 0.5rem 0;
+  padding: 0;
+  text-shadow: 0 0 1rem darkslategray;
+
+ }
+
+ .not-found{ 
+  text-align: center ;
+  text-transform: capitalize;
+  font-size:large ;
+
+
+ }
    
 }

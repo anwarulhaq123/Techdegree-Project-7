@@ -10,6 +10,7 @@ import Header from "./components/Header";
 import SearchForm from "./components/SearchForm";
 import Nav from "./components/Nav";
 import PhotoContainer from "./components/PhotoContainer";
+import Error404 from "./components/Error404";
 
 // Config contians the Key for Flicker API.
 import apiKey from "./Config";
@@ -70,7 +71,7 @@ export default class App extends Component {
                             page={this.state.loading}
                         />
                         )} />
-                        <Route />
+                        <Route component={Error404} />
                     </Switch>
 
                 </div>

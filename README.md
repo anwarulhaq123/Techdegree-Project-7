@@ -10,6 +10,8 @@ For this project, I have used the very popular and in-demand React library to cr
  1) $npx create-react-app
  2) npm install --save react-router-dom
  3) npm install --save axios // we need Axios to fetch the data from flicker.// 
+ 
+ 
 Using the powerful Create React App tool, i set up the initial project.
 
 Then ..

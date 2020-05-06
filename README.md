@@ -7,7 +7,7 @@ For this project, I have used the very popular and in-demand React library to cr
 
  To start my project i have use the following commands in the commandline to built my local Enviornment. Before doing these Steps i have the Upto date node ,npm ,and Yarn install on my computer.
  
- 1) $npx creat-react-app
+ 1) $npx create-react-app
  2) npm install --save react-router-dom
  3) npm install --save axios // we need Axios to fetch the data from flicker.// 
 Using the powerful Create React App tool, i set up the initial project.

@@ -23,13 +23,21 @@ Then ..
 Components
 
 The project has the 8  components. 
+
 1) Header.js
+
 2)Nav.js
+
 3)Photo.js
+
 4)PhotoContainer.js
+
 5)SearchForm.js
+
 6)NotFound.js
+
 7)LoadingImg.js
+
 8)Error404.js
 
 Config.js File 

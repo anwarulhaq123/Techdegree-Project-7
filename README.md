@@ -5,7 +5,7 @@ For this project, I have used the very popular and in-demand React library to cr
 
 
 
- To start my project i have use the following commands in the commandline to built my local Enviornment. Before doing these Steps ihave the Upto date node ,npm ,and Yarn install on my computer.
+ To start my project i have use the following commands in the commandline to built my local Enviornment. Before doing these Steps i have the Upto date node ,npm ,and Yarn install on my computer.
  
  1) $npx creat-react-app
  2) npm install -save react-router-dom

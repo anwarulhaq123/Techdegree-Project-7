@@ -1,3 +1,44 @@
+Start of Project 
+React Gallery App
+
+For this project, I have used the very popular and in-demand React library to create an image gallery app. With the help of this powerful "MVC" (Model, View, Controller) library, the app will is built in the style of modern single page applications to keep it fast, modular, and in sync with current web development trends.
+
+
+
+ To start my project i have use the following commands in the commandline to built my local Enviornment. Before doing these Steps ihave the Upto date node ,npm ,and Yarn install on my computer.
+ 
+ 1) $npx creat-react-app
+ 2) npm install -save react-router-dom
+ 3) npm install --save axios // we need Axios to fetch the data from flicker.// 
+Using the powerful Create React App tool, i set up the initial project.
+
+Then ..
+
+I have JavaScript and JSX to build out the gallery components in a modular fashion.
+i have used React Router to set up routes for  default topic pages and a search page.
+i have used the Axios to fetch data from the Flickr API and use it to display images in my app.
+
+Components
+
+The project has the 8  components. 
+1) Header.js
+2)Nav.js
+3)Photo.js
+4)PhotoContainer.js
+5)SearchForm.js
+6)NotFound.js
+7)LoadingImg.js
+8)Error404.js
+
+Config.js File 
+
+The file Config.js containts the key for flicker Api . you need to add  your own Api key for file Config.js. The file has the following code :
+
+const apiKey = 'YOUR API KEY';
+export default apiKey;
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
